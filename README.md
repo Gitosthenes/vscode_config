@@ -5,7 +5,9 @@
 - Material Theme - Mattia Astorino
 - Material Icon Theme - Philipp Kief
 - GetLens - Eric Amodio
+- Visual Studio Live Share - Microsoft
 - Better Comments - Aaron Bond
+- Numbered Bookmarks - Alessandro Fragnani
 - Visual Studio IntelliCode - Microsoft
 - Power Mode - Cody Hoover
 
