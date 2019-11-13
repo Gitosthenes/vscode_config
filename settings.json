@@ -1,20 +1,20 @@
 {
-  "latex-workshop.latex.toolchain": [
-        {
-          "command": "texify",
-          "args": [
-            "--synctex",
-            "--pdf",
-            "--tex-option=\"-interaction=nonstopmode\"",
-            "--tex-option=\"-file-line-error\"",
-            "%DOC%.tex"
-          ]
-        }
-      ],
+  //"latex-workshop.latex.toolchain": [
+        //{
+          //"command": "texify",
+          //"args": [
+          //  "--synctex",
+          //  "--pdf",
+          //  "--tex-option=\"-interaction=nonstopmode\"",
+         //   "--tex-option=\"-file-line-error\"",
+         //   "%DOC%.tex"
+         // ]
+       // }
+      //],
       "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       //"terminal.integrated.shell.windows": "D:\\Programs\\erl10.5\\bin\\werl.exe",
-      "terminal.integrated.cwd": "C:\\Users\\bleds\\Documents\\GitHub\\TCSS380_pr2",
-      "erlang.linter-erlc.executablePath": "D:\\Programs\\erl10.5\\bin\\erlc.exe",
+      //"terminal.integrated.cwd": "C:\\Users\\bleds\\Documents\\GitHub\\TCSS380_pr2",
+      //"erlang.linter-erlc.executablePath": "D:\\Programs\\erl10.5\\bin\\erlc.exe",
       "editor.tokenColorCustomizations": {
         "[Material Theme Darker High Contrast]": {
             "comments": "#b85300d2"
