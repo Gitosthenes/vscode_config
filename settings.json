@@ -1,0 +1,109 @@
+{
+  "latex-workshop.latex.toolchain": [
+        {
+          "command": "texify",
+          "args": [
+            "--synctex",
+            "--pdf",
+            "--tex-option=\"-interaction=nonstopmode\"",
+            "--tex-option=\"-file-line-error\"",
+            "%DOC%.tex"
+          ]
+        }
+      ],
+      "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      //"terminal.integrated.shell.windows": "D:\\Programs\\erl10.5\\bin\\werl.exe",
+      "terminal.integrated.cwd": "C:\\Users\\bleds\\Documents\\GitHub\\TCSS380_pr2",
+      "erlang.linter-erlc.executablePath": "D:\\Programs\\erl10.5\\bin\\erlc.exe",
+      "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "comments": "#b85300d2"
+        }
+      },
+      "workbench.colorCustomizations": {
+        "gitDecoration.untrackedResourceForeground": "#ff4242b2",
+        "gitDecoration.addedResourceForeground": "#00ff40c0",
+        "gitDecoration.modifiedResourceForeground": "#dacb02",
+        "gitDecoration.ignoredResourceForeground": "#686868"
+      },
+      "files.autoSave": "onFocusChange",
+      "editor.renderWhitespace": "boundary",
+      "workbench.iconTheme": "material-icon-theme",
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      
+      //Better_Comments config:
+      "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "#FF2D00",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "*",
+          "color": "#75a353",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": ">",
+          "color": "#4ed97c",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "%",
+          "color": "#ab45ff",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "#",
+          "color": "#dbc374",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        }
+      ],
+
+      //Power mode settings:
+        "powermode.enabled": true,
+
+       "powermode.enableShake": false,
+
+       "powermode.customExplosions": [
+            "https://media.giphy.com/media/xUA7aXJY46jN2P6gGk/giphy.gif",
+            "https://media.giphy.com/media/l0IykOPjEJopboxWw/giphy.gif",
+            "https://media.giphy.com/media/3o7btLYqcZhUb2GP16/giphy.gif"
+        ],
+        "powermode.explosionOrder": "sequential",
+        "powermode.explosionSize": 12,
+        "powermode.explosionFrequency": 2,
+        "powermode.maxExplosions": 10,
+        "powermode.explosionOffset": 0.215,
+        "powermode.customCss": {
+            "mix-blend-mode": "color-dodge"
+        },
+        "powermode.gifMode": "restart",
+        "powermode.explosionDuration": 1000,
+        "powermode.backgroundMode": "mask",
+        "workbench.colorTheme": "Material Theme Darker High Contrast",
+}
