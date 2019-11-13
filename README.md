@@ -4,6 +4,7 @@
 ##### Current List of Extentions:
 - Material Theme - Mattia Astorino
 - Material Icon Theme - Philipp Kief
+- GetLens - Eric Amodio
 - Better Comments - Aaron Bond
 - Visual Studio IntelliCode - Microsoft
 - Power Mode - Cody Hoover
